@@ -30,5 +30,32 @@ Despite the prosperity of generative models, the risks and challenges posed by A
 * The annotation information is same as [AMBER](https://github.com/junyangwang0410/AMBER/tree/master).
 
 ## Overview
+<img src="./assets/semantic translation_01.jpg" alt="image-20230517233229650" style="zoom:80%;" />
+We establish an evaluation environment for hallucinations involving synthetic images. Specifically, we introduce an automated annotation method (Semantic Translation) for unlabeled synthetic image datasets, where the generation process of synthetic images remains unchanged. This approach ensures the authenticity and consistency of the synthetic images, providing a foundation for quantitative analysis in subsequent hallucination evaluations. 
 
 ## Results
+<img src="./assets/AMBER_eval.png" style="zoom:80%;" />
+<img src="./assets/Redar.jpg" style="zoom:80%;" />
+
+The main findings regarding hallucinations induced by synthetic images include (1) **a greater quantity** and (2) **a more uniform position distribution of hallucinated contents**. 
+
+## Examples
+<img src="./assets/Introduction.jpg" style="zoom:80%;" />
+
+## Acknowledgments
+This codebase borrows from most notably [AMBER](https://github.com/junyangwang0410/AMBER/tree/master) and [POPE](https://github.com/RUCAIBox/POPE). Many thanks to the authors for generously sharing their codes!
+
+
+## Citation
+If you found this work useful, consider giving this repository a star and citing our paper as followed:
+
+```
+@inproceedings{
+gao2024aigcs,
+title={{AIGC}s Confuse {AI} Too: Investigating and Explaining Synthetic Image-induced Hallucinations in Large Vision-Language Models},
+author={Yifei Gao and Jiaqi Wang and Zhiyu Lin and Jitao Sang},
+booktitle={ACM Multimedia 2024},
+year={2024},
+url={https://openreview.net/forum?id=5qOWYC2IQj}
+}
+```
